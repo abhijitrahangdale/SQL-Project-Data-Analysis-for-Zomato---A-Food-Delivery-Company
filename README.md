@@ -152,7 +152,7 @@ ORDER BY order_count DESC;
 ```
 
 ### 3. Order Value Analysis
--- Question: Find the average order value per customer who has placed more than 750 orders.
+-- Question: Find the average order value per customer who has placed more than 750 orders.                   
 -- Return customer_name, and aov(average order value)
 
 ```sql
