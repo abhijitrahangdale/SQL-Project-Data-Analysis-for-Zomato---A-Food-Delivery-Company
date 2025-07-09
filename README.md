@@ -1,4 +1,6 @@
-# SQL Project: Data Analysis for Zomato - A Food Delivery Company
+# Zomato Insights Hub: Comprehensive SQL Data Analysis
+
+
 
 ## Overview
 
