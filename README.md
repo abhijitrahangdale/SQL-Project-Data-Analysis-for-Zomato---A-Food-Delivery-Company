@@ -80,7 +80,7 @@ CREATE TABLE deliveries (
 
 ## Data Cleaning and Handling Null Values
 
-- **Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:**
+-- Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:
 
 ```sql
 UPDATE orders
@@ -117,7 +117,7 @@ WHERE rank <= 5
 ```
 
 ### 2. Popular Time Slots
--- Question: Identify the time slots during which the most orders are placed. based on 2-hour intervals.**
+-- Question: Identify the time slots during which the most orders are placed. based on 2-hour intervals.
 
 ```sql
 SELECT
