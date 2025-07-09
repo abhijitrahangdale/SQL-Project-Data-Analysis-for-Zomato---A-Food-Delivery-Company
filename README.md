@@ -184,7 +184,7 @@ HAVING SUM(o.total_amount) > 100000;
 ```
 
 ### 5. Orders Without Delivery
--- Question: Write a query to find orders that were placed but not delivered. 
+-- Question: Write a query to find orders that were placed but not delivered.                                                                                
 -- Return each restuarant name, city and number of not delivered orders 
 
 ```sql
@@ -219,8 +219,7 @@ ORDER BY 2 DESC
 
 
 ### 6. Restaurant Revenue Ranking: 
--- Rank restaurants by their total revenue from the last year, including their name, 
--- total revenue, and rank within their city.
+-- Rank restaurants by their total revenue from the last year, including their name,total revenue, and rank within their city.
 
 ```sql
 WITH ranking_table
@@ -279,8 +278,7 @@ WHERE
 ```
 
 ### 9. Cancellation Rate Comparison: 
--- Calculate and compare the order cancellation rate for each restaurant between the 
--- current year and the previous year.
+-- Calculate and compare the order cancellation rate for each restaurant between the current year and the previous year.
 
 ```sql
 WITH cancel_ratio_23 AS (
@@ -385,10 +383,10 @@ FROM growth_ratio;
 ```
 
 ### 12. Customer Segmentation: 
--- Customer Segmentation: Segment customers into 'Gold' or 'Silver' groups based on their total spending 
--- compared to the average order value (AOV). If a customer's total spending exceeds the AOV, 
--- label them as 'Gold'; otherwise, label them as 'Silver'. Write an SQL query to determine each segment's 
--- total number of orders and total revenue
+-- Customer Segmentation: Segment customers into 'Gold' or 'Silver' groups based on their total spending                                                           
+-- compared to the average order value (AOV). If a customer's total spending exceeds the AOV,                                                                       
+-- label them as 'Gold'; otherwise, label them as 'Silver'. Write an SQL query to determine each segment's                                                         
+-- total number of orders and total revenue                                                                                                            
 
 ```sql
 SELECT 
@@ -428,11 +426,10 @@ ORDER BY 1, 2;
 ```
 
 ### Q.14 Rider Ratings Analysis: 
--- Find the number of 5-star, 4-star, and 3-star ratings each rider has.
--- riders receive this rating based on delivery time.
--- If orders are delivered less than 15 minutes of order received time the rider get 5 star rating,
--- if they deliver 15 and 20 minute they get 4 star rating 
--- if they deliver after 20 minute they get 3 star rating.
+-- Find the number of 5-star, 4-star, and 3-star ratings each rider has riders receive this rating based on delivery time.                                         
+-- If orders are delivered less than 15 minutes of order received time the rider get 5 star rating,                                                		
+-- if they deliver 15 and 20 minute they get 4 star rating 													
+-- if they deliver after 20 minute they get 3 star rating.													
 
 ```sql
 SELECT 
