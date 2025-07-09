@@ -174,7 +174,7 @@ HAVING SUM(o.total_amount) > 100000;
 ### 5. Orders Without Delivery
 -- Question: Write a query to find orders that were placed but not delivered.                                                                                
 -- Return each restuarant name, city and number of not delivered orders 
-
+```sql
 SELECT 
 	r.restaurant_name,
 	COUNT(*)
@@ -212,7 +212,6 @@ SELECT
 	*
 FROM ranking_table
 WHERE rank = 1;
-
 ```
 
 ### 7. Most Popular Dish by City: 
