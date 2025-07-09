@@ -168,7 +168,7 @@ HAVING  COUNT(order_id) > 750;
 ```
 
 ### 4. High-Value Customers
--- Question: List the customers who have spent more than 100K in total on food orders.
+-- Question: List the customers who have spent more than 100K in total on food orders.                                                        
 -- return customer_name, and customer_id!
 
 ```sql
