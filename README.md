@@ -175,23 +175,6 @@ HAVING SUM(o.total_amount) > 100000;
 -- Question: Write a query to find orders that were placed but not delivered.                                                                                
 -- Return each restuarant name, city and number of not delivered orders 
 
-```sql
--- Approach 1
-SELECT 
-	r.restaurant_name,
-	COUNT(o.order_id) as cnt_not_delivered_orders
-FROM orders as o
-LEFT JOIN 
-restaurants as r
-ON r.restaurant_id = o.restaurant_id
-LEFT JOIN
-deliveries as d
-ON d.order_id = o.order_id
-WHERE d.delivery_id IS NULL
-GROUP BY 1
-ORDER BY 2 DESC
-
--- Approach 2
 SELECT 
 	r.restaurant_name,
 	COUNT(*)
