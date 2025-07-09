@@ -1,6 +1,9 @@
-# SQL-Project-Data-Analysis-for-Zomato---A-Food-Delivery-Company
+# SQL Project: Data Analysis for Zomato - A Food Delivery Company
 
 ## Overview
+
+This project demonstrates my SQL problem-solving skills through the analysis of data for Zomato, a popular food delivery company in India. The project involves setting up the database, importing data, handling null values, and solving a variety of business problems using complex SQL queries.
+
 ## Project Structure
 
 - **Database Setup:** Creation of the `zomato_db` database and the required tables.
@@ -8,9 +11,10 @@
 - **Data Cleaning:** Handling null values and ensuring data integrity.
 - **Business Problems:** Solving 20 specific business problems using SQL queries.
 
-  ![erd](https://github.com/user-attachments/assets/db2aea91-8dc6-4b73-aa1a-6c4975f874c5)
+![erd](https://github.com/user-attachments/assets/dd75185e-b513-45a6-8bbc-f2d47e5c5207)
 
-  ## Database Setup
+
+## Database Setup
 ```sql
 CREATE DATABASE zomato_db;
 ```
@@ -381,7 +385,8 @@ FROM growth_ratio;
 ```
 
 ### 12. Customer Segmentation: 
--- Customer Segmentation: Segment customers into 'Gold' or 'Silver' groups based on their total spending                                                            -- compared to the average order value (AOV). If a customer's total spending exceeds the AOV, 
+-- Customer Segmentation: Segment customers into 'Gold' or 'Silver' groups based on their total spending 
+-- compared to the average order value (AOV). If a customer's total spending exceeds the AOV, 
 -- label them as 'Gold'; otherwise, label them as 'Silver'. Write an SQL query to determine each segment's 
 -- total number of orders and total revenue
 
@@ -590,20 +595,11 @@ GROUP BY 1;
 
 ## Conclusion
 
-Your project showcases proficiency in using complex SQL queries to address real-world business challenges 
-for a food delivery service like Zomato. It demonstrates a structured approach to problem-solving, strong 
-data manipulation skills, and the ability to extract actionable insights from data. Key highlights likely include:
+Your project showcases proficiency in using complex SQL queries to address real-world business challenges for a food delivery service like Zomato. It demonstrates a structured approach to problem-solving, strong data manipulation skills, and the ability to extract actionable insights from data. Key highlights likely include:
 
-- **Complex SQL Queries**: Crafting advanced queries (e.g., joins, subqueries, aggregations) to analyze large datasets,
-- such as customer orders, restaurant performance, or delivery metrics.
-- **Problem-Solving Methodology**: Applying a systematic approach to break down business problems, define objectives,
--  and design queries to meet those goals (e.g., optimizing delivery times or identifying top-performing restaurants).
+- **Complex SQL Queries**: Crafting advanced queries (e.g., joins, subqueries, aggregations) to analyze large datasets, such as customer orders, restaurant performance, or delivery metrics.
+- **Problem-Solving Methodology**: Applying a systematic approach to break down business problems, define objectives, and design queries to meet those goals (e.g., optimizing delivery times or identifying top-performing restaurants).
 - **Data Manipulation**: Cleaning, transforming, and aggregating data to ensure accuracy and relevance for analysis.
-- **Actionable Insights**: Deriving meaningful conclusions, such as customer behavior trends, operational inefficiencies,
-- or revenue opportunities, to drive business decisions.
+- **Actionable Insights**: Deriving meaningful conclusions, such as customer behavior trends, operational inefficiencies, or revenue opportunities, to drive business decisions.
 
-This combination of technical SQL expertise and business acumen effectively addresses challenges like improving customer 
-satisfaction, optimizing operations, or increasing profitability in a food delivery context. If you have specific queries 
-or datasets from the project, I can help analyze or explain them further!
-
-
+This combination of technical SQL expertise and business acumen effectively addresses challenges like improving customer satisfaction, optimizing operations, or increasing profitability in a food delivery context.
