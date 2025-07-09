@@ -75,7 +75,7 @@ CREATE TABLE deliveries (
 
 ## Data Cleaning and Handling Null Values
 
-Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:
+- **Before performing analysis, I ensured that the data was clean and free from null values where necessary. For instance:**
 
 ```sql
 UPDATE orders
@@ -112,7 +112,7 @@ WHERE rank <= 5
 ```
 
 ### 2. Popular Time Slots
--- Question: Identify the time slots during which the most orders are placed. based on 2-hour intervals.
+- **Question: Identify the time slots during which the most orders are placed. based on 2-hour intervals.**
 
 **Approach 1:**
 
@@ -152,7 +152,7 @@ ORDER BY order_count DESC;
 ```
 
 ### 3. Order Value Analysis
--- Question: Find the average order value per customer who has placed more than 750 orders.                   
+- * Question: Find the average order value per customer who has placed more than 750 orders.                   
 -- Return customer_name, and aov(average order value)
 
 ```sql
