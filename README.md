@@ -1,5 +1,6 @@
 # Zomato Insights Hub: Comprehensive SQL Data Analysis
 
+![ZOmato - 90](https://github.com/user-attachments/assets/983c4bfe-b967-4bea-9688-d4855f6741f5)
 
 
 ## Overview
