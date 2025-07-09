@@ -117,21 +117,6 @@ WHERE rank <= 5
 ### 2. Popular Time Slots
 - **Question: Identify the time slots during which the most orders are placed. based on 2-hour intervals.**
 
-**Approach 1:**
-
-```sql
--- Approach 1
-SELECT 
-	FLOOR(EXTRACT(HOUR FROM order_time)/2)*2 as start_time,
-	FLOOR(EXTRACT(HOUR FROM order_time)/2)*2 + 2 as end_time,
-	COUNT(*) as total_orders
-FROM orders
-GROUP BY 1, 2
-ORDER BY 3 DESC;
-```
-
-**Approach 2:**
-
 ```sql
 SELECT
     CASE
