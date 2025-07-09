@@ -117,7 +117,7 @@ WHERE rank <= 5
 ```
 
 ### 2. Popular Time Slots
-- **Question: Identify the time slots during which the most orders are placed. based on 2-hour intervals.**
+-- Question: Identify the time slots during which the most orders are placed. based on 2-hour intervals.**
 
 ```sql
 SELECT
@@ -142,7 +142,7 @@ ORDER BY order_count DESC;
 ```
 
 ### 3. Order Value Analysis
-- * Question: Find the average order value per customer who has placed more than 750 orders.                   
+-- Question: Find the average order value per customer who has placed more than 750 orders.                   
 -- Return customer_name, and aov(average order value)
 
 ```sql
@@ -564,7 +564,7 @@ GROUP BY 1;
 
 ## Conclusion
 
-This project showcases proficiency in using complex SQL queries to address real-world business challenges for a food delivery service like Zomato. It demonstrates a structured approach to problem-solving, strong data manipulation skills, and the ability to extract actionable insights from data. Key highlights likely include:
+### This project showcases proficiency in using complex SQL queries to address real-world business challenges for a food delivery service like Zomato. It demonstrates a structured approach to problem-solving, strong data manipulation skills, and the ability to extract actionable insights from data. Key highlights likely include:
 
 - **Complex SQL Queries**: Crafting advanced queries (e.g., joins, subqueries, aggregations) to analyze large datasets, such as customer orders, restaurant performance, or delivery metrics.
 - **Problem-Solving Methodology**: Applying a systematic approach to break down business problems, define objectives, and design queries to meet those goals (e.g., optimizing delivery times or identifying top-performing restaurants).
