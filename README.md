@@ -1,10 +1,10 @@
-# Zomato Insights Hub: Comprehensive SQL Data Analysis
+# Zomato Data Analysis Using SQL
 
 ![ZOmato - 90](https://github.com/user-attachments/assets/983c4bfe-b967-4bea-9688-d4855f6741f5)
 
 
 ## Overview
-- **Project Title:**   Zomato Insights Hub:-  Comprehensive SQL Data Analysis
+- **Project Title:**  Zomato Data Analysis Using SQL
 - **Database:**  Zomato_db
 
 This project demonstrates my SQL problem-solving skills through the analysis of data for Zomato, a popular food delivery company in India. The project involves setting up the database, importing data, handling null values, and solving a variety of business problems using complex SQL queries.
